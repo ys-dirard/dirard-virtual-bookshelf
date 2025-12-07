@@ -1,6 +1,17 @@
 {
-  "exportDate": "2025-12-07T13:48:32.325Z",
+  "exportDate": "2025-12-07T23:49:11.557Z",
   "books": {
+    "4065412382": {
+      "title": "PythonではじめるMCP開発入門",
+      "authors": "李碩根, からあげ, 渡邊拓夢",
+      "acquiredTime": 1764460800000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4065412382.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118412135,
+      "memo": "",
+      "rating": 0
+    },
     "400006973X": {
       "title": "データ解析のための統計モデリング入門",
       "authors": "久保拓弥",
@@ -10,7 +21,7 @@
       "source": "manual_add",
       "addedDate": 1765113754893,
       "memo": "一般化線形モデル(GLM)を基にモデリングを学ぶ本。モデリングをする際に気を付けないといけないことやAICが何者か？などまで記載があり間違いを矯正する意味でもおすすめ。たまに読むと落ち着く。",
-      "rating": 0
+      "rating": 5
     },
     "4320115511": {
       "title": "データ解析のための数理統計入門",
@@ -21,6 +32,171 @@
       "source": "manual_add",
       "addedDate": 1765114188747,
       "memo": "統計学を軽く？やり直そうと思って買った。統計検定準1級対策にも良いらしい。",
+      "rating": 5
+    },
+    "4320115651": {
+      "title": "公式と例題で学ぶ統計学入門",
+      "authors": "久保川達也",
+      "acquiredTime": 1763856000000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4320115651.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118082518,
+      "memo": "",
+      "rating": 0
+    },
+    "478060852X": {
+      "title": "日本統計学会公式認定統計検定準1級対応統計学実践ワークブック",
+      "authors": "日本統計学会",
+      "acquiredTime": 1765118118972,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/478060852X.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118118972,
+      "memo": "",
+      "rating": 0
+    },
+    "4320111664": {
+      "title": "現代数理統計学の基礎",
+      "authors": "久保川達也",
+      "acquiredTime": 1623542400000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4320111664.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118155618,
+      "memo": "",
+      "rating": 0
+    },
+    "4798177458": {
+      "title": "テスト駆動Python 第2版",
+      "authors": "Brian Okken",
+      "acquiredTime": 1688601600000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4798177458.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118486172,
+      "memo": "",
+      "rating": 0
+    },
+    "4873117585": {
+      "title": "ゼロから作るDeep Learning",
+      "authors": "斎藤康毅",
+      "acquiredTime": 1569888000000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4873117585.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118606997,
+      "memo": "",
+      "rating": 0
+    },
+    "4873118360": {
+      "title": "ゼロから作るDeep Learning 2",
+      "authors": "斎藤康毅",
+      "acquiredTime": 1607299200000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4873118360.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118630095,
+      "memo": "",
+      "rating": 0
+    },
+    "4873119065": {
+      "title": "フレームワーク編",
+      "authors": "斎藤康毅",
+      "acquiredTime": 1587340800000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4873119065.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118650465,
+      "memo": "",
+      "rating": 0
+    },
+    "4873119758": {
+      "title": "ゼロから作る Deep Learning ❹",
+      "authors": "斎藤康毅",
+      "acquiredTime": 1649808000000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4873119758.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118671746,
+      "memo": "",
+      "rating": 0
+    },
+    "4814400594": {
+      "title": "ゼロから作るDeep Learning 5",
+      "authors": "斎藤康毅",
+      "acquiredTime": 1712707200000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4814400594.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118689722,
+      "memo": "",
+      "rating": 0
+    },
+    "4297136333": {
+      "title": "大規模言語モデル入門",
+      "authors": "山田育矢, 鈴木正敏, 李凌寒",
+      "acquiredTime": 1765118958091,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4297136333.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765118958091,
+      "memo": "",
+      "rating": 0
+    },
+    "4297143933": {
+      "title": "大規模言語モデル入門II〜生成型LLMの実装と評価",
+      "authors": "山田育矢, 鈴木正敏, 西川荘介, 藤井一喜, 山田康輔, 李凌寒",
+      "acquiredTime": 1725667200000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4297143933.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765119015910,
+      "memo": "",
+      "rating": 0
+    },
+    "4297145308": {
+      "title": "LangChainとLangGraphによるRAG・AIエージェント[実践]入門",
+      "authors": "西見公宏, 吉田真吾, 大嶋勇樹",
+      "acquiredTime": 1731110400000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4297145308.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765119084029,
+      "memo": "",
+      "rating": 0
+    },
+    "4297138395": {
+      "title": "ChatGPT、LangChainによるチャットシステム構築[実践]入門",
+      "authors": "吉田真吾, 大嶋勇樹",
+      "acquiredTime": 1698019200000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4297138395.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765119152469,
+      "memo": "",
+      "rating": 0
+    },
+    "4839987807": {
+      "title": "つくりながら学ぶ!LLM 自作入門",
+      "authors": "Sebastian Raschka",
+      "acquiredTime": 1744156800000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4839987807.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765119272766,
+      "memo": "",
+      "rating": 0
+    },
+    "4297152266": {
+      "title": "まるごと学べる異常検知の実践知",
+      "authors": "中村謙太",
+      "acquiredTime": 1761609600000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4297152266.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1765119330990,
+      "memo": "",
       "rating": 0
     }
   },
@@ -33,13 +209,53 @@
       "isPublic": true,
       "books": [
         "400006973X",
-        "4320115511"
+        "4320115511",
+        "4320115651",
+        "478060852X",
+        "4320111664",
+        "4873117585",
+        "4873118360",
+        "4873119758",
+        "4814400594",
+        "4297136333",
+        "4297143933",
+        "4839987807",
+        "4297152266"
       ],
       "createdAt": "2025-12-07T13:28:23.264Z",
       "staticPageInfo": {
         "filename": "bookshelf_1765114103264.html",
-        "lastGenerated": "2025-12-07T13:28:42.493Z",
+        "lastGenerated": "2025-12-07T14:57:04.598Z",
         "url": "https://karaage0703.github.io/karaage-virtual-bookshelf/static/bookshelf_1765114103264.html"
+      },
+      "lastUpdated": "2025-12-07T13:57:01.823Z"
+    },
+    {
+      "id": "bookshelf_1765118317553",
+      "name": "技術書",
+      "emoji": "📚",
+      "description": "技術書を雑多に置くところ",
+      "isPublic": true,
+      "books": [
+        "4065412382",
+        "4798177458",
+        "4873117585",
+        "4873118360",
+        "4873119065",
+        "4873119758",
+        "4814400594",
+        "4297136333",
+        "4297143933",
+        "4297145308",
+        "4297138395",
+        "4839987807",
+        "4297152266"
+      ],
+      "createdAt": "2025-12-07T14:38:37.553Z",
+      "staticPageInfo": {
+        "filename": "bookshelf_1765118317553.html",
+        "lastGenerated": "2025-12-07T14:57:17.776Z",
+        "url": "https://karaage0703.github.io/karaage-virtual-bookshelf/static/bookshelf_1765118317553.html"
       }
     }
   ],
@@ -54,7 +270,7 @@
   },
   "bookOrder": {},
   "stats": {
-    "totalBooks": 2,
+    "totalBooks": 18,
     "notesCount": 2
   },
   "version": "2.0"
