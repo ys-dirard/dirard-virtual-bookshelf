@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>統計 / データサイエンス / 機械学習 / 深層学習 - Virtual Bookshelf</title>
+    <meta name="description" content="ML、DL、それに付随していそうな統計関係">
+
+    <!-- Open Graph for SNS sharing -->
+    <meta property="og:title" content="統計 / データサイエンス / 機械学習 / 深層学習 - Virtual Bookshelf">
+    <meta property="og:description" content="ML、DL、それに付随していそうな統計関係">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ys-dirard.github.io/dirard-virtual-bookshelf/static/bookshelf_1765114103264.html">
+    <meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/P/400006973X.01.L.jpg">
+    <meta property="og:site_name" content="Virtual Bookshelf">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="統計 / データサイエンス / 機械学習 / 深層学習 - Virtual Bookshelf">
+    <meta name="twitter:description" content="ML、DL、それに付随していそうな統計関係">
+    <meta name="twitter:image" content="https://images-na.ssl-images-amazon.com/images/P/400006973X.01.L.jpg">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+    <link rel="stylesheet" href="../css/bookshelf.css">
+    <style>
+        /* Static bookshelf specific styles */
+        .static-bookshelf {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .bookshelf-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+
+        .bookshelf-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .bookshelf-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .bookshelf-stat {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .static-book-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .static-book-item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+
+        .static-book-cover {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-bottom: 1px solid #eee;
+        }
+
+        .static-book-info {
+            padding: 1rem;
+        }
+
+        .static-book-title {
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .static-book-author {
+            color: #666;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .static-book-rating {
+            margin-top: 0.5rem;
+        }
+
+        .static-book-memo {
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            color: #555;
+            line-height: 1.4;
+            font-style: italic;
+        }
+
+        .static-book-memo a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .static-book-memo a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-info {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .share-btn:hover {
+            opacity: 0.8;
+        }
+
+        .share-twitter { background: #1da1f2; }
+        .share-facebook { background: #4267B2; }
+        .share-line { background: #00B900; }
+        .share-copy {
+            background: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="static-bookshelf">
+        <header class="bookshelf-header">
+            <h1 class="bookshelf-title">📚 統計 / データサイエンス / 機械学習 / 深層学習</h1>
+            <p class="bookshelf-description">ML、DL、それに付随していそうな統計関係</p>
+            <div class="bookshelf-meta">
+                <div class="bookshelf-stat">📚 2冊</div>
+                <div class="bookshelf-stat">📅 2025年12月7日</div>
+
+            </div>
+        </header>
+
+        <main class="books-grid">
+            
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/400006973X?tag=vbookshelf-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/400006973X.01.L.jpg"
+                             alt="データ解析のための統計モデリング入門"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">データ解析のための統計モデリング入門</div>
+                        <div class="static-book-author">久保拓弥</div>
+                        
+                        <div class="static-book-memo">一般化線形モデル(GLM)を基にモデリングを学ぶ本。モデリングをする際に気を付けないといけないことやAICが何者か？などまで記載があり間違いを矯正する意味でもおすすめ。たまに読むと落ち着く。</div>
+                    </div>
+                </div>
+            
+
+                <div class="static-book-item">
+                    <a href="https://www.amazon.co.jp/dp/4320115511?tag=vbookshelf-22" target="_blank" rel="noopener noreferrer">
+                        <img class="static-book-cover"
+                             src="https://images-na.ssl-images-amazon.com/images/P/4320115511.01.L.jpg"
+                             alt="データ解析のための数理統計入門"
+                             loading="lazy">
+                    </a>
+                    <div class="static-book-info">
+                        <div class="static-book-title">データ解析のための数理統計入門</div>
+                        <div class="static-book-author">久保川達也</div>
+                        
+                        <div class="static-book-memo">統計学を軽く？やり直そうと思って買った。統計検定準1級対策にも良いらしい。</div>
+                    </div>
+                </div>
+            
+        </main>
+
+        <footer class="footer-info">
+            <h3>📤 この本棚をシェア</h3>
+            <div class="share-buttons">
+                <a href="https://twitter.com/intent/tweet?text=%E7%B5%B1%E8%A8%88%20%2F%20%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%20%2F%20%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%20%2F%20%E6%B7%B1%E5%B1%A4%E5%AD%A6%E7%BF%92%20%23vbshelf%20https%3A%2F%2Fys-dirard.github.io%2Fdirard-virtual-bookshelf%2Fstatic%2Fbookshelf_1765114103264.html"
+                   target="_blank" class="share-btn share-twitter">🐦 Twitter</a>
+                <button onclick="copyToClipboard('統計 / データサイエンス / 機械学習 / 深層学習 #vbshelf https://ys-dirard.github.io/dirard-virtual-bookshelf/static/bookshelf_1765114103264.html')" class="share-btn share-copy">📋 テキストコピー</button>
+            </div>
+
+            <p style="margin-top: 2rem; color: #666;">
+                Powered by <a href="../index.html" style="color: #667eea;">Virtual Bookshelf</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('URLをクリップボードにコピーしました！');
+            }).catch(() => {
+                // フォールバック
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('URLをクリップボードにコピーしました！');
+            });
+        }
+    </script>
+</body>
+</html>
