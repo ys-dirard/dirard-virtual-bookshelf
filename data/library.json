@@ -1,6 +1,17 @@
 {
-  "exportDate": "2025-12-07T23:49:11.557Z",
+  "exportDate": "2025-12-23T04:08:31.885Z",
   "books": {
+    "4061529269": {
+      "title": "ガウス過程と機械学習",
+      "authors": "持橋大地, 大羽成征",
+      "acquiredTime": 1766448000000,
+      "readStatus": "UNKNOWN",
+      "productImage": "https://images-na.ssl-images-amazon.com/images/P/4061529269.01.L.jpg",
+      "source": "manual_add",
+      "addedDate": 1766462660643,
+      "memo": "ガウス過程についてわかりやすく解説されている。第一章を読んで一目惚れ？一読み惚れ？しました。\n読むと心が落ち着く。",
+      "rating": 5
+    },
     "4065412382": {
       "title": "PythonではじめるMCP開発入門",
       "authors": "李碩根, からあげ, 渡邊拓夢",
@@ -220,7 +231,8 @@
         "4297136333",
         "4297143933",
         "4839987807",
-        "4297152266"
+        "4297152266",
+        "4061529269"
       ],
       "createdAt": "2025-12-07T13:28:23.264Z",
       "staticPageInfo": {
@@ -249,7 +261,8 @@
         "4297145308",
         "4297138395",
         "4839987807",
-        "4297152266"
+        "4297152266",
+        "4061529269"
       ],
       "createdAt": "2025-12-07T14:38:37.553Z",
       "staticPageInfo": {
@@ -270,8 +283,8 @@
   },
   "bookOrder": {},
   "stats": {
-    "totalBooks": 18,
-    "notesCount": 2
+    "totalBooks": 19,
+    "notesCount": 3
   },
   "version": "2.0"
 }
